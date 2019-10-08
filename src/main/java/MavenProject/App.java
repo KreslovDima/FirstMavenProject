@@ -1,13 +1,25 @@
-package MavenProject;
+package MavenProject;  //Dima Kreslov 1 group
 
-/**
- * Hello world!
- *
- */
-public class App 
+import java.util.Arrays;
+import java.util.*;
+public class App
 {
+
+
+
+
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        int arr[] ={62, 84, 32, 5, 0, 14, 52, 82, 58, 71};
+
+
+
+            Arrays.sort(arr);
+
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
     }
+
 }
