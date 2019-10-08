@@ -1,7 +1,7 @@
 package MavenProject;  //Dima Kreslov 1 group
 
 import java.util.Arrays;
-import java.util.*;
+
 public class App
 {
 
